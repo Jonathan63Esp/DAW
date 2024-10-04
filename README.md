@@ -3,8 +3,6 @@ Este repositorio contiene actividades de la asignatura o modulo Despliegue de Ap
 
 ##TEMA 0 - Introducción
 
-Tema 0
-
 | Ejercicios | Descripción  |
 |------------|------------|
 | Ejercicio1 | enlace |
