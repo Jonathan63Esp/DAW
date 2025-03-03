@@ -7,4 +7,4 @@ Este repositorio contiene actividades de la asignatura o modulo Despliegue de Ap
 |------------|------------|
 | [Ejercicio1](/tema0/ejercicio1.md) | Servidor simple con Python desde linea de comandos | 
 | [Ejercicio1](/tema0/ejercicio2.md) | Descripción del ejercicio 2 |
-| [Ejercicio3](/ProyectoDAW2ºEval/readme.md) | Descripción del ejercicio 2 |
+| [Ejercicio3](/ProyectoDAW2ºEval/readme.md) | Proyecto DAW |
