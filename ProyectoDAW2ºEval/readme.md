@@ -31,6 +31,6 @@ Y veremos como se esta creado nuestra VPC
 
 Cuando termine de hacerse le daremos a Ver VPC para asi ver los detalles
 
-![Detalles de las VPCs](imagenes/Sintítulo.PNG)
+![Detalles de las VPCs](imagenes/Sintítulo.png)
 
 ## Hola 3
