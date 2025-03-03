@@ -41,5 +41,21 @@ Una vez hecho esto lanzaremos una instancia en EC2, la cual tendra los siguiente
 ![Detalles de la instancia4](imagenes/Sintítulo5.PNG)
 ![Detalles de la instancia5](imagenes/Sintítulo6.PNG)
 
+Una vez hecho le daremos al boton de Lanzar instancia y nos saldrá una ventana que nos indicara el progreso de la creacion de la instancia, el cual cuando termine nos dira que esta todo correcto
+
+![Instancia realizada correctamente](imagenes/Sintítulo7.PNG)
+
+Le podemos dar al boton de Ver todas las instancias para ver nuestra estancia creada
+
+![Instancia creada](imagenes/Sintítulo8.PNG)
+
+Con nuestra instancia creada la marcaremos y le daremos al boton de conectar
+
+![Marcamos la instancia y le damos a conectar](imagenes/Sintítulo9.PNG)
+
+En esta nueva seccion le daremos a conectar para poder conectarnos directamente con nuestra instancia
+
+![Conectarse a la instancia](imagenes/Sintítulo10.PNG)
+![Dentro de la instancia](imagenes/Sintítulo11.PNG)
 
 ## Hola 3
