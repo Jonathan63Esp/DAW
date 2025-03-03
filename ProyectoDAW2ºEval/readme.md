@@ -16,6 +16,7 @@ Una vez que estemos dentro de la sección de VPC le daremos al boton de "Crear V
 ![Botón de Crear VPC](imagenes/Captura1.PNG)
 
 En la parte de Crear VPC, Ponemos los siguientes datos como en las imagenes
+
 ![Datos1](imagenes/Captura2.PNG)
 ![Datos2](imagenes/Captura3.PNG)
 ![Datos3](imagenes/Captura4.PNG)
