@@ -33,4 +33,13 @@ Cuando termine de hacerse le daremos a Ver VPC para asi ver los detalles
 
 ![Detalles de las VPCs](imagenes/Sintítulo.png)
 
+Una vez hecho esto lanzaremos una instancia en EC2, la cual tendra los siguientes datos
+
+![Detalles de la instancia1](imagenes/Sintítulo2.png)
+![Detalles de la instancia2](imagenes/Sintítulo3.png)
+![Detalles de la instancia3](imagenes/Sintítulo4.png)
+![Detalles de la instancia4](imagenes/Sintítulo5.png)
+![Detalles de la instancia5](imagenes/Sintítulo6.png)
+
+
 ## Hola 3
