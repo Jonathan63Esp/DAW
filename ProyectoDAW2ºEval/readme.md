@@ -51,7 +51,7 @@ Le podemos dar al boton de Ver todas las instancias para ver nuestra estancia cr
 
 Con nuestra instancia creada la marcaremos y le daremos al boton de conectar
 
-![Marcamos la instancia y le damos a conectar](imagenes/Sintítulo9.PNG)
+![Marcamos la instancia y le damos a conectar](imagenes/Sintítulo9.png)
 
 En esta nueva seccion le daremos a conectar para poder conectarnos directamente con nuestra instancia
 
