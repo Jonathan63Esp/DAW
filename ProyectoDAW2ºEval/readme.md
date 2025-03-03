@@ -7,4 +7,12 @@ El objeto de crear dos subredes públicas es construir al final del ejercicio un
 
 ## Paso 1 Creación de las VPCs
 
+Primero, debemos diseñar la estructura de nuestra red, incluyendo las distintas instancias y los servicios EFS y RDS. Nuestra VPC estará compuesta por cuatro subredes: dos públicas y dos privadas. Para crearlas, accedemos a nuestro laboratorio de AWS, buscamos "VPC" en el buscador y seleccionamos la opción correspondiente.
+
+![Buscamos VPC](imagenes/Captura.PNG)
+
+Una vez que estemos dentro de la sección de VPC le daremos al boton de "Crear VPC"
+
+![Botón de Crear VPC](imagenes/Captura1.PNG)
+
 ## Hola 3
