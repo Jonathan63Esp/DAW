@@ -15,4 +15,21 @@ Una vez que estemos dentro de la sección de VPC le daremos al boton de "Crear V
 
 ![Botón de Crear VPC](imagenes/Captura1.PNG)
 
+En la parte de Crear VPC, Ponemos los siguientes datos como en las imagenes
+![Datos1](imagenes/Captura2.PNG)
+![Datos2](imagenes/Captura3.PNG)
+![Datos3](imagenes/Captura4.PNG)
+
+Una vez puesto todos los datos le damos al boton de Crear VPC
+
+![Boton para Crear las VPCs](imagenes/Captura5.PNG)
+
+Y veremos como se esta creado nuestra VPC
+
+![Flujo de Creacion de las VPCs](imagenes/Captura6.PNG)
+
+Cuando termine de hacerse le daremos a Ver VPC para asi ver los detalles
+
+![Detalles de las VPCs](imagenes/Sintítulo.PNG)
+
 ## Hola 3
