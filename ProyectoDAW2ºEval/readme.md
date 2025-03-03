@@ -58,4 +58,14 @@ En esta nueva seccion le daremos a conectar para poder conectarnos directamente 
 ![Conectarse a la instancia](imagenes/Sintítulo10.PNG)
 ![Dentro de la instancia](imagenes/Sintítulo11.PNG)
 
+Ahora que estamos dentro de la estancia actualizaremos los paquetes que tenemos en el sistema, para ello ejecutaremos el siguiente comando
+
+```sudo apt update && sudo apt upgrade -y```
+
+![Dentro de la instancia](imagenes/Sintítulo12.PNG)
+
+Una vez actualizados todos los paquetes procederemos a la instalación de Apache con el siguiente codigo
+
+```sudo apt update && sudo apt upgrade -y```
+
 ## Hola 3
