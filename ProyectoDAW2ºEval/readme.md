@@ -113,6 +113,32 @@ en caso contrario ejecutaremos ```sudo systemctl restart apache2``` Y ```sudo sy
 
 ![Apache y MySQL corriendo](imagenes/Sintítulo20.PNG)
 
-## Paso 4 Creación de la base de datos
+## Paso 6 Creación de la base de datos
+
+Para ello buscaremos RDS en el buscador de AWS y le daremos al primer resultado que nos aparezca
+
+![Buscamos RDS](imagenes/Sintítulo21.PNG)
+
+Seguido de ello buscamos bases de datos a la izquierda y le damos a crear base de datos
+
+![Crear base de datos](imagenes/Sintítulo22.PNG)
+
+En este apartado rellenamos con los siguientes datos
+
+![Datos base de datos1](imagenes/Sintítulo23.PNG)
+![Datos base de datos2](imagenes/Sintítulo24.PNG)
+![Datos base de datos3](imagenes/Sintítulo25.PNG)
+![Datos base de datos4](imagenes/Sintítulo26.PNG)
+![Datos base de datos5](imagenes/Sintítulo27.PNG)
+![Datos base de datos6](imagenes/Sintítulo28.PNG)
+
+Una vez todo relleno con lo esencial le daremos al boton para crear la base de datos
+
+![Crear la base de datos](imagenes/Sintítulo29.PNG)
+
+Esto va a tardar un buen rato, cuando este completamente hecha la seleccionaremos y le daremos al boton de acciones y le daremos a configurar la conexion de EC2
+
+![Configurar la conexion de EC2](imagenes/Sintítulo30.PNG)
+
 
 
