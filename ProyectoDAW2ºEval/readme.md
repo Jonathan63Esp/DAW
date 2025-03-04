@@ -140,5 +140,36 @@ Esto va a tardar un buen rato, cuando este completamente hecha la seleccionaremo
 
 ![Configurar la conexion de EC2](imagenes/Sintítulo30.PNG)
 
+Una vez aqui seleccionaremos nuestra instancia EC2 y le daremos a continuar
+
+![Seleccionamos nuestra instancia](imagenes/Sintítulo31.PNG)
+
+Revisamos que todo este correcto y le daremos al boton de configurar
+
+![Revisar y darle a configurar](imagenes/Sintítulo32.PNG)
+
+En egsta ventana anotaremos en algun lado el puerto de enlace que nos será util para mas adelante
+
+![Anotamos el puerto de enlace](imagenes/Sintítulo33.PNG)
+
+## Paso 7 Elastic File System.
+
+
+A continuación, deberemos crear el sistema de almacenamiento externo que vamos a conectar a la instancia y que más tarde conectaremos a wordpress, para ello en el buscador de AWS buscamos EFS y le daremos al primer resultado.
+
+![Buscamos EFS](imagenes/Sintítulo34.PNG)
+
+Una vez dentro del apartado de EFS le daremos a "Crear un sistema de archivos"
+
+![Crear un sistema de archivos](imagenes/Sintítulo35.PNG)
+
+Dentro de esta seccion le pondremos el nombre que queramos y la VPC que habiamos creado
+
+![Configurar EFS](imagenes/Sintítulo36.PNG)
+
+Una vez creado podemos ver y entrar a nuestro sistema de archivos para confirmar que se ha montado en las subredes correspondientes de nuestro VPC en la parte de Red
+
+![Configurar EFS](imagenes/Sintítulo37.PNG)
+
 
 
