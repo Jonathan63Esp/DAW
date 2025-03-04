@@ -33,6 +33,8 @@ Cuando termine de hacerse le daremos a Ver VPC para asi ver los detalles
 
 ![Detalles de las VPCs](imagenes/Sintítulo.png)
 
+## Paso 2 Creación de la Instancia EC2
+
 Una vez hecho esto lanzaremos una instancia en EC2, la cual tendra los siguientes datos
 
 ![Detalles de la instancia1](imagenes/Sintítulo2.PNG)
@@ -57,6 +59,8 @@ En esta nueva seccion le daremos a conectar para poder conectarnos directamente 
 
 ![Conectarse a la instancia](imagenes/Sintítulo10.PNG)
 ![Dentro de la instancia](imagenes/Sintítulo11.PNG)
+
+## Paso 3 Instalación de Apache2
 
 Ahora que estamos dentro de la estancia actualizaremos los paquetes que tenemos en el sistema, para ello ejecutaremos el siguiente comando
 
@@ -83,6 +87,8 @@ Ahora abriremos un navegador o pestaña aparte y pondremos la IP publica de nues
 
 ![Apache corriendo en el servidor de la instancia publicamente](imagenes/Sintítulo15.PNG)
 
+## Paso 4 Instalación del módulo de PHP
+
 El siguiente paso es instalar PHP mediante el modulo de Apache2, para ello ejecutaremos el siguiente código
 
 ```sudo apt install php libapache2-mod-php php-cli```
@@ -93,4 +99,6 @@ Y una vez instalado pondremos ```php -v ``` para comprobar que efectivamente php
 
 ![Comprobando la versión de PHP](imagenes/Sintítulo18.PNG)
 
-## Hola 3
+## Paso 5 Instalación del módulo de MySQL
+
+
