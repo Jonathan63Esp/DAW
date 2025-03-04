@@ -78,7 +78,7 @@ Cuando se haya instalado ejecutaremos el siguiente codigo para ver si esta ejecu
 
 ```sudo systemctl status```
 
-en caso contrario ejecutaremos ```sudo systemctl start apache2```
+en caso contrario ejecutaremos ```sudo systemctl restart apache2``` Y ```sudo systemctl start apache2```
 
 ![Apache corriendo](imagenes/Sintítulo14.PNG)
 
@@ -100,5 +100,19 @@ Y una vez instalado pondremos ```php -v ``` para comprobar que efectivamente php
 ![Comprobando la versión de PHP](imagenes/Sintítulo18.PNG)
 
 ## Paso 5 Instalación del módulo de MySQL
+
+Ahora usaremos el paquete de MySQL con ```sudo apt install php-mysql``` este paquete permite que PHP se conecte y trabaje con bases de datos MySQL
+
+![Instalando MySQL](imagenes/Sintítulo19.PNG)
+
+Cuando se haya instalado ejecutaremos el siguiente codigo para ver si esta ejecutandose o no
+
+```sudo systemctl status```
+
+en caso contrario ejecutaremos ```sudo systemctl restart apache2``` Y ```sudo systemctl start apache2```
+
+![Apache y MySQL corriendo](imagenes/Sintítulo20.PNG)
+
+## Paso 4 Creación de la base de datos
 
 
