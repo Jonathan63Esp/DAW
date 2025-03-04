@@ -169,7 +169,7 @@ Dentro de esta seccion le pondremos el nombre que queramos y la VPC que habiamos
 
 Una vez creado podemos ver y entrar a nuestro sistema de archivos para confirmar que se ha montado en las subredes correspondientes de nuestro VPC en la parte de Red
 
-![Configurar EFS](imagenes/Sintítulo37.PNG)
+![Comprobar VPCs](imagenes/Sintítulo37.PNG)
 
 
 
