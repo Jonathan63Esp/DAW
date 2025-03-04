@@ -62,10 +62,35 @@ Ahora que estamos dentro de la estancia actualizaremos los paquetes que tenemos 
 
 ```sudo apt update && sudo apt upgrade -y```
 
-![Dentro de la instancia](imagenes/Sintítulo12.PNG)
+![Instalando Apache](imagenes/Sintítulo17.PNG)
 
 Una vez actualizados todos los paquetes procederemos a la instalación de Apache con el siguiente codigo
 
-```sudo apt update && sudo apt upgrade -y```
+```sudo apt install apache2```
+
+![Apache instalandose](imagenes/Sintítulo13.PNG)
+
+Cuando se haya instalado ejecutaremos el siguiente codigo para ver si esta ejecutandose o no
+
+```sudo systemctl status```
+
+en caso contrario ejecutaremos ```sudo systemctl start apache2```
+
+![Apache corriendo](imagenes/Sintítulo14.PNG)
+
+
+Ahora abriremos un navegador o pestaña aparte y pondremos la IP publica de nuestra estancia para comprobar que efectivamente esta instalado y ejecutandose Apache
+
+![Apache corriendo en el servidor de la instancia publicamente](imagenes/Sintítulo15.PNG)
+
+El siguiente paso es instalar PHP mediante el modulo de Apache2, para ello ejecutaremos el siguiente código
+
+```sudo apt install php libapache2-mod-php php-cli```
+
+![Instalando PHP](imagenes/Sintítulo16.PNG)
+
+Y una vez instalado pondremos ```php -v ``` para comprobar que efectivamente php esta instalado y a la ultima version disponible
+
+![Comprobando la versión de PHP](imagenes/Sintítulo18.PNG)
 
 ## Hola 3
