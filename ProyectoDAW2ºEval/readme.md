@@ -258,4 +258,40 @@ En esta parte copiamos los datos que nos proporcionan y volveremos a nuestra ins
 
 ![Crear Wordpress](imagenes/Sintítulo55.PNG)
 
+De nuevo a nuestra instancia EC2 ejecutamos los siguientes compandos para crear un fichero en el que pgar los datos que nos ha proporcionado el WordPress
+
+```cd /var/www/html```
+```sudo nano wp-config.php```
+
+Con esto se nos abrira el editor de archivos pegamos el contenido y guardamos con CTRL+O+ENTER
+
+![Pegar contenido Wordpress](imagenes/Sintítulo56.PNG)
+
+Volveremos al navegador web donde estabamos realizando la instalacion de wordpress y le daremos un titulo, un usuario, una contraseña y un correo y al terminar le daremos a install WordPress
+
+![Continuar instalación](imagenes/Sintítulo58.PNG)
+
+Al terminar nos saldra la ventana de que se ha instalado y pulsaremos en Login para asi poner las credenciales
+
+![Login Wordpress](imagenes/Sintítulo59.PNG)
+![Dentro de Wordpress](imagenes/Sintítulo60.PNG)
+
+## Paso 8 Instalación de EFS a directorio WP-Content
+
+Esto se usa para almacenar los archivos de WordPress, primero haremos una copia de seguridad de ese directorio llamandolo wp-content-old
+
+```cd /var/www/html```
+```sudo cp -r wp-content wp-content-old```
+
+Ahora vamos a cambiar la propiedad del directorio wp-content a www-data, permitiendo que el servidor web (como Apache o Nginx) tenga acceso completo para leer y escribir en este directorio, lo cual es necesario para que WordPress pueda almacenar y gestionar archivos como imágenes, temas y plugins.
+
+```sudo chown www-data:www-data wp-content```
+
+Vamos a vincular la carpeta wp-content del servidor con la instancia EFS de AWS utilizando el comando de montaje proporcionado por EFS, para que WordPress almacene sus archivos de manera centralizada y escalable.
+
+(En el comando copiado cambiaremos el nombre de la carpeta "efs" por "wp-content" que es la que queremos enlazar)
+
+![Instalación de EFS a directorio WP-Content](imagenes/Sintítulo61.PNG)
+
+
 
