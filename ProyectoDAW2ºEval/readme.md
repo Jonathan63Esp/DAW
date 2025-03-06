@@ -202,3 +202,26 @@ Nos movemos nuevamente a la instancia para instalar el paquete nfs con el comand
 
 ![Instalar el paquete NFS](imagenes/Sintítulo46.PNG)
 
+Una vez hecho crearemos la carpeta en la que almacenaremos los archivos que se encuentren en el EFS, para ello usaremos el comando ```mkdir efs``` para crear el directorio y seguidamente pegamos el comando que copiamos antes para conectar la instancia EC2 con la EFS pero cambiando la carpeta final por la que hemos creado
+
+![Comando MKDIR y Conectar instancia EC2 cambiando la carpeta](imagenes/Sintítulo47.PNG)
+
+Si no salta ningun error se ha hecho correctamente la configuración de EFS
+
+## Paso 8 Instalación de WordPress
+
+En este paso vamos a proceder con la instalación de Wordpress, para ello
+
+### Paso 8.1 Nos movemos al directorio /var/www/html
+
+```cd /var/www/html```
+
+### Paso 8.2 Descargar el archivo comprimido de Wordpress
+
+```sudo wget http://wordpress.org/latest.tar.gz```
+
+![Moverse al directorio y descargar wordpress](imagenes/Sintítulo48.PNG)
+
+### Paso 8.3 Extraer el contenido del archivo comprimido descargado
+
+![Extraer comprimido](imagenes/Sintítulo49.PNG)
