@@ -169,7 +169,36 @@ Dentro de esta seccion le pondremos el nombre que queramos y la VPC que habiamos
 
 Una vez creado podemos ver y entrar a nuestro sistema de archivos para confirmar que se ha montado en las subredes correspondientes de nuestro VPC en la parte de Red
 
-![Comprobar VPCs](imagenes/Sintítulo37.PNG)
+![Comprobar VPCs1](imagenes/Sintítulo37.PNG)
+![Comprobar VPCs2](imagenes/Sintítulo38.PNG)
+
+Ahora vamos a permitir que nuestra instancia EC2 se conecte a la instancia EFS, añadiendo el grupo de seguridad de EC2 a EFS. Para hacerlo, vamos a hacer clic en "Administrar" en la pantalla anterior. Luego, en esta sección, vamos a agregar el grupo de seguridad de la EC2 en ambas zonas de disponibilidad. 
+
+![Conectar instancia EC2 a instancia EFS](imagenes/Sintítulo39.PNG)
+
+Este grupo de seguridad se puede encontrar en la información de nuestra instancia EC2 de la siguiente manera:
+
+![Añadir grupo de seguridad 1](imagenes/Sintítulo40.PNG)
+![Añadir grupo de seguridad 2](imagenes/Sintítulo41.PNG)
+
+Ahora vamos a agregar la conexión EFS a las reglas del grupo de seguridad al que pertenece la instancia EC2. De esta manera, se permitirán las conexiones a la EFS. Para hacerlo, vamos a ir al menú de VPC, específicamente a la sección de "Grupos de seguridad". Allí buscaremos el grupo de seguridad que añadimos a la EFS, lo modificaremos usando el buscador y accederemos a él.
+
+![Agregar conexion EFS a reglas del grupo de seguridad](imagenes/Sintítulo42.PNG)
+
+Y añadiremos una nueva regla que permita la entrada EFS desde cualquier dirección IP
+
+![Regla EFS](imagenes/Sintítulo43.PNG)
 
 
+Despues Vincularemos la instancia EC2 con la instancia EFS
+
+![Regla EFS](imagenes/Sintítulo44.PNG)
+
+Una vez hecho pulsaremos sobre Asociar y copiaremos la linea "Mediante el cliente de NFS"
+
+![Cliente NFS](imagenes/Sintítulo45.PNG)
+
+Nos movemos nuevamente a la instancia para instalar el paquete nfs con el comando ```sudo apt-get install nfs-common```
+
+![Instalar el paquete NFS](imagenes/Sintítulo46.PNG)
 
