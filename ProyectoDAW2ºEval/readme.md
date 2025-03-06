@@ -224,4 +224,38 @@ En este paso vamos a proceder con la instalación de Wordpress, para ello
 
 ### Paso 8.3 Extraer el contenido del archivo comprimido descargado
 
+```sudo tar -xf latest.tar.gz```
+
 ![Extraer comprimido](imagenes/Sintítulo49.PNG)
+
+## Paso 9 Instalación del cliente MySQL
+
+El siguiente paso es instalar el cliente MySQL, para ello usaremos ```sudo apt install default-mysql-client```
+
+![Instalar cliente MySQL](imagenes/Sintítulo50.PNG)
+
+Ahora nos dirigiremos al menú de RDS para copiar el punto de enlace y conectarnos a la base de datos EFS que creamos anteriormente. En esta sección, buscaremos nuestra base de datos y accederemos para copiar el punto de enlace, una vez heccho ejecutaremos el siguiente comando para conectarnos a la base de datos.
+
+Recordatorio de poner la contraseña que se puso para la base de datos
+
+```$ mysql -u admin -h (pegar punto de enlace) -p```
+
+![Conectar a la base de datos EFS](imagenes/Sintítulo51.PNG)
+
+A continuación ejecutaremos las siguientes líneas de MySQL para crear nuestra base de datos Wordpress:
+
+![Crear base de datos](imagenes/Sintítulo52.PNG)
+
+Por ultimo accederos a la IP de nuestra instancia EC2 para instalar wordpress, le damos a let's go y seguiremos los pasos
+
+![Crear Wordpress](imagenes/Sintítulo53.PNG)
+
+Aqui introducimos los datos con los que trabajamos antes
+
+![Crear Wordpress](imagenes/Sintítulo54.PNG)
+
+En esta parte copiamos los datos que nos proporcionan y volveremos a nuestra instancia EC2
+
+![Crear Wordpress](imagenes/Sintítulo55.PNG)
+
+
