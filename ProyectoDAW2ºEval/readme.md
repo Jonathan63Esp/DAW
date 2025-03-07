@@ -138,7 +138,7 @@ Una vez todo relleno con lo esencial le daremos al boton para crear la base de d
 
 Esto va a tardar un buen rato, cuando este completamente hecha la seleccionaremos y le daremos al boton de acciones y le daremos a configurar la conexion de EC2
 
-![Configurar la conexion de EC2](imagenes/Sintítulo30.PNG)
+![Configurar la conexion de EC2](imagenes/Sintítulo30.png)
 
 Una vez aqui seleccionaremos nuestra instancia EC2 y le daremos a continuar
 
