@@ -72,9 +72,21 @@ Ponemos en la barra de direcciones powershell y se nos abrira la terminal con la
 
 ![powershell abierto](https://github.com/user-attachments/assets/25d45d64-35ca-463e-b54e-d5781abaf8bc)
 
-Ahora ponemos docker 
+Ahora ponemos ```docker build -t getting-started ``` para construir la imagen
 
-![image](https://github.com/user-attachments/assets/00099d49-b279-4fb1-b904-3be658adfd84)
+![docker build](https://github.com/user-attachments/assets/49d02aae-6cd4-489a-b8ba-537d61c1d092)
+
+Al terminar ponemos ```docker run -d -p 127.0.0.1:3000:3000 getting-started``` para arrancarlo
+
+![comando para arrancarlo](https://github.com/user-attachments/assets/6f4d6e8b-7eb5-4d00-a6f1-10b49053198c)
+
+Ahora en el navegador nos vamos a http://localhost:3000/ y veremos nuestro contenedor en activo
+
+![image](https://github.com/user-attachments/assets/76f32dff-984b-4b59-a123-5cc3d1370914)
+
+
+
+
 
 
 
