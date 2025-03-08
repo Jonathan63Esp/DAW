@@ -23,6 +23,19 @@ Le damos a ok para que se instale y al terminar reiniciamos Windows
 ![Instalando Docker](https://github.com/user-attachments/assets/65df0271-6e92-4cc5-a34a-76a5bb39be6d)
 ![Instalación finalizada](https://github.com/user-attachments/assets/b8d1a0b2-229d-4371-bdea-0107f99f567d)
 
+Al reiniciar aceptamos los terminos 
+
+![Aceptamos los terminos](https://github.com/user-attachments/assets/a0479f09-e04f-4986-96e3-265578285889)
+
+Y usamos la configuración recomendada
+
+![Configuración recomendada](https://github.com/user-attachments/assets/f4b9c8d3-6458-4b52-9e61-7900b0c46a35)
+
+Al finalizar Docker nos da la bienvenida y nos pregunta si vamos a usar el programa para trabajo o personal, seleccionamos personal y ponemos un correo 
+
+![Personal](https://github.com/user-attachments/assets/aed6b68c-3195-480a-994b-ecd8e4ba36fd)
+
+
 
 
 
