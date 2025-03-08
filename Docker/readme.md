@@ -12,3 +12,4 @@ A continuación se presentan los enlaces a los ejercicios realizados:
 
 ## [Ejercicio 5](https://github.com/Jonathan63Esp/DAW/blob/main/Docker/Ejercicio5.md)
 
+## [Ejercicio 6](https://github.com/Jonathan63Esp/DAW/blob/main/Docker/Ejercicio6.md)
