@@ -46,5 +46,21 @@ https://github.com/josedom24/curso_docker_ies/tree/main/ejemplos/modulo4/ejemplo
 
 ![image](https://github.com/user-attachments/assets/5ca507be-9271-42e5-90f5-2d1c498b3961)
 
-Una vez hecho ejecutamos ```docker compose up -d```
+Una vez hecho ejecutamos ```docker compose up -d``` para montarmo y ```docker-compose ps```para ver que estan los contenedores
+
+![image](https://github.com/user-attachments/assets/ec07a504-4cc2-42bf-af6b-7ef829b60f4b)
+
+Y si nos vamos a localhost:8081 esta la aplicacion
+
+![image](https://github.com/user-attachments/assets/3d81bf93-0387-4506-8e6d-16a7dc992226)
+
+Igual que antes:
+
+Si queremos parar los contenedores usamos ```docker compose stop```
+
+y si queremos eliminar el escenario usamos ```docker compose down```
+
+![image](https://github.com/user-attachments/assets/e00a8e76-1529-4e1a-b3a6-7ff31d5e2f5e)
+
+
 
