@@ -27,7 +27,7 @@ usamos el comando ```docker images```
 
 Para ejecutar un contenedor basado en la imagen hello-world y darle el nombre myhello1, usa el siguiente comando
 
-```docker run myhello1 hello-world```
+```docker run --name myhello1 hello-world```
 
 ![myhello1](https://github.com/user-attachments/assets/fc17e488-2ca5-4150-88a1-929999628ea2)
 
@@ -35,7 +35,7 @@ Para ejecutar un contenedor basado en la imagen hello-world y darle el nombre my
 
 Para ejecutar un contenedor basado en la imagen hello-world y darle el nombre myhello2, usa el siguiente comando
 
-```docker run myhello2 hello-world```
+```docker run --name myhello2 hello-world```
 
 ![myhello2](https://github.com/user-attachments/assets/7485ea9c-8c44-49b2-a7e4-fccb9a20691d)
 
@@ -43,7 +43,7 @@ Para ejecutar un contenedor basado en la imagen hello-world y darle el nombre my
 
 Para ejecutar un contenedor basado en la imagen hello-world y darle el nombre myhello3, usa el siguiente comando
 
-```docker run myhello3 hello-world```
+```docker run --name myhello3 hello-world```
 
 ![myhello3](https://github.com/user-attachments/assets/d204fdbe-24da-4b07-a653-48159e9b7b01)
 
