@@ -31,3 +31,22 @@ Vamos a hacer un despliegue completo de una aplicación llamada Temperaturas. Es
 Para ello creamos una red para conectar los dos contenedores que necesita
 
 ```docker network create red_temperaturas```
+
+![image](https://github.com/user-attachments/assets/492a938e-e83e-465e-8fb7-1b271ddb5f88)
+
+Y al igual que antes ejecutamos los dos contenedores
+
+```
+
+docker run -d --name temperaturas-backend --network red_temperaturas iesgn/temperaturas_backend
+
+docker run -d -p 80:3000 --name temperaturas-frontend --network red_temperaturas iesgn/temperaturas_frontend
+
+```
+
+![1](https://github.com/user-attachments/assets/59ab4eeb-d6c6-4a74-8cf1-ee43be2602d1)
+
+![2](https://github.com/user-attachments/assets/34c12535-e593-4b61-9036-08a029ff892e)
+
+
+
