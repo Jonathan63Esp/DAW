@@ -1,6 +1,6 @@
 # Ejercicios Docker
 
-A continuación se presentan los enlaces a los dos ejercicios realizados:
+A continuación se presentan los enlaces a los ejercicios realizados:
 
 ## [Ejercicio 1](https://github.com/Jonathan63Esp/DAW/blob/main/Docker/Ejercicio1.md)
 
