@@ -68,7 +68,8 @@ EXPOSE 3000
 
 Ponemos en la barra de direcciones powershell y se nos abrira la terminal con la ubicacion del archivo
 
-![powershell](https://github.com/user-attachments/assets/9b866198-2147-42ca-bedc-0d18528da899)
+![powershell](https://github.com/user-attachments/assets/6b0580bd-57fc-41cd-a14f-373782069595)
+
 ![powershell abierto](https://github.com/user-attachments/assets/25d45d64-35ca-463e-b54e-d5781abaf8bc)
 
 Ahora ponemos docker 
