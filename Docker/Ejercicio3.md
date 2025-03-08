@@ -49,6 +49,31 @@ Para ejecutar un contenedor basado en la imagen hello-world y darle el nombre my
 
 # 8. Mostrar los contenedores que se están ejecutando
 
-con docker ```docker ps``` vemos los contenedores que se estan ejecutando
+con docker ```docker ps``` vemos los contenedores que se estan ejecutando, pero los contenedores de Hello-World (y otros contenedores basados en imágenes similares) se detienen automáticamente después de ejecutar su tarea, porque están diseñados para ser contenedores efímeros o contenedores de una sola ejecución.
+
+# 9. Detener los contenedores "myhello1" , "myhello2" , "myhello3"
+
+con los comandos 
+
+```docker stop myhello1```
+```docker stop myhello2```
+```docker stop myhello3```
+
+detenemos los contenedores myhello1 , myhello2 y myhello3 si estuvieran en ejecucion. 
+
+![docker stop](https://github.com/user-attachments/assets/f3e74773-125b-439b-8881-898d8c819bce)
+
+# 10. Eliminar todos los contenedores
+
+Primero usamos ```docker ps -q | ForEach-Object { docker stop $_ }``` para parar todos los contenedores en ejecucion
+
+![detener](https://github.com/user-attachments/assets/f7a33a6e-2042-45a8-91a6-f22afd616062)
+
+
+Y luego usamos ```docker image prune -a -f``` para eliminarlos a la fuerza y sin confirmar
+
+![eliminar](https://github.com/user-attachments/assets/7b943885-7f36-4eac-894f-ee9639703871)
+
+
 
 
