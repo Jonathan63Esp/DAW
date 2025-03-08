@@ -95,11 +95,37 @@ con docker ps podemos ver la lista de contenedores
 
 ### 2.8 Publicar el contenedor en hub.docker.com
 
-La cuenta nos la hicimos antes cuando instalamos el docker, asi que nos vamos a https://hub.docker.com/
+La cuenta nos la hicimos antes cuando instalamos el docker, asi que nos vamos a la terminar y ponemos ```docker login```
+
+a mi no me pidio las credenciales porque estaba iniciado sesión en hub.docker.com, pero si hubiera que hacerlo mostraria algo como esto
+
+```
+docker login
+Username: jonathan63esp
+Password: ********
+```
+
+![image](https://github.com/user-attachments/assets/42d42de5-ab1e-4ffb-be36-b61795fa6f5b)
+
+Ahora lo que haremos será primero contruir la imagen docker
+
+```docker build -t jonathan63esp/getting-started-app:latest .```
+
+![build](https://github.com/user-attachments/assets/638b533e-d9c2-4a90-850a-ad982eaa8a2e)
 
 
+Y luego lo subiremos con push
+
+```docker push jonathan63esp/getting-started-app:latest```
+
+![push](https://github.com/user-attachments/assets/59514ca7-6136-4617-ad1a-e097c85a96d9)
+
+Y para ver si esta publicado nos vamos a la parte de repositorios de la pagina
+
+![repositorios](https://github.com/user-attachments/assets/3b419d45-a23f-4a55-814e-e2b92146360d)
 
 
+Y listo con esto ya tenemos el docker publicado
 
 
 
