@@ -41,10 +41,34 @@ Los archivos se me alojaron en C:\Users\Jonathan\getting-started-app
 
 ![archivos alojados](https://github.com/user-attachments/assets/afba2851-03f3-452d-909b-f0dd1a22d038)
 
+En esta misma carpeta que es donde esta el package.json creamos un archivo llamado Dockerfile
+
+![Dockerfile](https://github.com/user-attachments/assets/88a018e0-c4c0-4891-8e7b-ab51abb4a2da)
+
+Y le pegamos el siguiente contenido
+```
+# syntax=docker/dockerfile:1
+
+FROM node:lts-alpine
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
+```
+![image](https://github.com/user-attachments/assets/a92576b8-acd9-4e8b-a41e-f93be2e3e2a3)
+
+
+
 Ponemos en la barra de direcciones powershell y se nos abrira la terminal con la ubicacion del archivo
 
 ![powershell](https://github.com/user-attachments/assets/9b866198-2147-42ca-bedc-0d18528da899)
 ![powershell abierto](https://github.com/user-attachments/assets/25d45d64-35ca-463e-b54e-d5781abaf8bc)
+
+Ahora ponemos docker 
+
+![image](https://github.com/user-attachments/assets/00099d49-b279-4fb1-b904-3be658adfd84)
+
 
 
 
