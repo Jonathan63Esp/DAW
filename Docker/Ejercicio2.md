@@ -1,6 +1,6 @@
 # Ejercicios de Docker usando Windows
 
-## Ejercicio 2. Get Started 1
+## Get Started 1
 
 ### 2.1. Ejecutar la Imagen de Hello World
 
@@ -28,4 +28,16 @@ Para ver los contenedores docker que están en ejecución o si deseamos ver todo
 
 ![image](https://github.com/user-attachments/assets/5dec1135-6315-481a-8167-680b668caf67)
 
+
+## Get Started 2
+
+Lo que nos pide el ejercicio es primero hacer un clon del siguiente repositorio, lo haremos desde Powershell y habiendo tenido git previamente instalado
+
+```git clone https://github.com/docker/getting-started-app.git```
+
+![clonando repositorio](https://github.com/user-attachments/assets/b1ee7c8d-8dbe-4494-ba7b-189966862e7c)
+
+Los archivos se me alojaron en C:\Users\Jonathan\getting-started-app
+
+![archivos alojados](https://github.com/user-attachments/assets/afba2851-03f3-452d-909b-f0dd1a22d038)
 
