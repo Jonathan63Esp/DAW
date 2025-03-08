@@ -19,7 +19,7 @@ Con el fichero docker-compose.yaml vamos a definir el escenario. El comando dock
 
 ![image](https://github.com/user-attachments/assets/c1fb4e46-bf05-4c0f-aaa9-9306533d233b)
 
-Ahora usamos el comando ```docker-compose -d``` r, que aunque es igual que docker ps la diferencia es que hay que ejecutar este comandoen el directorio donde esta el archivo docker-compose.yml y al hacerlo verás una lista de los contenedores que se están ejecutando, junto con la siguiente información:
+Ahora usamos el comando ```docker-compose ps``` r, que aunque es igual que docker ps la diferencia es que hay que ejecutar este comandoen el directorio donde esta el archivo docker-compose.yml y al hacerlo verás una lista de los contenedores que se están ejecutando, junto con la siguiente información:
 
 - Nombre del contenedor
 - Estado del contenedor (ej., "Up", "Exited", etc.)
