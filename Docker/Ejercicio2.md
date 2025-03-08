@@ -84,6 +84,11 @@ Ahora en el navegador nos vamos a http://localhost:3000/ y veremos nuestro conte
 
 ![image](https://github.com/user-attachments/assets/76f32dff-984b-4b59-a123-5cc3d1370914)
 
+con docker ps podemos ver la lista de contenedores
+
+![docker ps](https://github.com/user-attachments/assets/368806dc-548a-492c-875c-090b90e87e0b)
+
+
 
 
 
