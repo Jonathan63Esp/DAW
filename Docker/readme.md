@@ -31,9 +31,34 @@ Y usamos la configuración recomendada
 
 ![Configuración recomendada](https://github.com/user-attachments/assets/f4b9c8d3-6458-4b52-9e61-7900b0c46a35)
 
-Al finalizar Docker nos da la bienvenida y nos pregunta si vamos a usar el programa para trabajo o personal, seleccionamos personal y ponemos un correo 
+Al finalizar Docker nos da la bienvenida y nos pregunta si vamos a usar el programa para trabajo o personal, seleccionamos personal y ponemos un correo y le damos a continue
 
 ![Personal](https://github.com/user-attachments/assets/aed6b68c-3195-480a-994b-ecd8e4ba36fd)
+
+Se nos abrira esta pagina que es para registrarnos, decido usar el inicio de sesion de google
+
+![Nos registramos](https://github.com/user-attachments/assets/2f587281-85e2-4230-99f9-ee46b5e9369d)
+
+Ponemos un usuario, en mi caso puse el de github y le damos a signup
+
+![ponemos usuario y signup](https://github.com/user-attachments/assets/6f595583-48c7-423c-93ea-b88e11314d31)
+
+Dejamos que interactue la pagina con la aplicacion de docker marcando el checkbox
+
+![checkbox y abrir](https://github.com/user-attachments/assets/d073fd1b-a3da-4e56-878f-0ea51fc44993)
+
+Y continuamos en la aplicacion haciendo los pasos que es rellenar la encuesta
+
+![rellenando encuesta](https://github.com/user-attachments/assets/35b5adee-cdd3-4a24-9ddd-4f5711fc6905)
+
+Y ya estamos listos para trabajar con docker
+
+![listos para trabajar con docker](https://github.com/user-attachments/assets/194412e1-e961-4255-888b-0d1b92eadd37)
+
+
+
+
+
 
 
 
