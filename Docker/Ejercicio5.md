@@ -64,3 +64,54 @@ y si queremos eliminar el escenario usamos ```docker compose down```
 
 
 # Ejemplo 3: Despliegue de WordPress + Mariadb
+
+Para esto modificaremos el archivo docker-compose.yaml con lo siguiente
+
+```
+
+version: '3.1'
+services:
+  wordpress:
+    container_name: servidor_wp
+    image: wordpress
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: user_wp
+      WORDPRESS_DB_PASSWORD: asdasd
+      WORDPRESS_DB_NAME: bd_wp
+    ports:
+      - 80:80
+    volumes:
+      - wordpress_data:/var/www/html/wp-content
+  db:
+    container_name: servidor_mysql
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_DATABASE: bd_wp
+      MYSQL_USER: user_wp
+      MYSQL_PASSWORD: asdasd
+      MYSQL_ROOT_PASSWORD: asdasd
+    volumes:
+      - mariadb_data:/var/lib/mysql
+volumes:
+    wordpress_data:
+    mariadb_data:
+
+```
+
+Lo modificamos usando un editor de codigo como Visual Studio Code
+
+![image](https://github.com/user-attachments/assets/b15f0c4e-0206-4d4d-9dfe-7ca40bf6944b)
+
+Una vez hecho ejecutamos ```docker compose up -d``` para montarmo y ```docker-compose ps```para ver que estan los contenedores
+
+![image](https://github.com/user-attachments/assets/83242340-9526-47ce-bdb3-4838df4afb99)
+
+Y si nos vamos a localhost:80 esta la aplicacion
+
+![image](https://github.com/user-attachments/assets/00f34361-8db7-428d-9e65-a3cfd01ae338)
+
+
+
