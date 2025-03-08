@@ -113,5 +113,14 @@ Y si nos vamos a localhost:80 esta la aplicacion
 
 ![image](https://github.com/user-attachments/assets/00f34361-8db7-428d-9e65-a3cfd01ae338)
 
+Igual que antes:
+
+Si queremos parar los contenedores usamos ```docker compose stop```
+
+y si queremos eliminar el escenario usamos ```docker compose down```
+
+![image](https://github.com/user-attachments/assets/aa940cb5-26bc-4b3a-b213-542f6ff2d76c)
+
+
 
 
