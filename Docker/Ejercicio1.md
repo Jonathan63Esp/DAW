@@ -1,6 +1,6 @@
 # Ejercicios de Docker usando Windows
 
-## 1. Instalación de docker
+## Ejercicio 1. Instalación de docker
 
 En la página principal de docker https://docs.docker.com/ le damos a donde pone "Ger Docker"
 
