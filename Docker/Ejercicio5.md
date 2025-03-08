@@ -19,7 +19,7 @@ Con el fichero docker-compose.yaml vamos a definir el escenario. El comando dock
 
 ![image](https://github.com/user-attachments/assets/c1fb4e46-bf05-4c0f-aaa9-9306533d233b)
 
-Ahora usamos el comando ```docker-compose up p``` r, que aunque es igual que docker ps la diferencia es que hay que ejecutar este comandoen el directorio donde esta el archivo docker-compose.yml y al hacerlo verás una lista de los contenedores que se están ejecutando, junto con la siguiente información:
+Ahora usamos el comando ```docker-compose up -d``` r, que aunque es igual que docker ps la diferencia es que hay que ejecutar este comandoen el directorio donde esta el archivo docker-compose.yml y al hacerlo verás una lista de los contenedores que se están ejecutando, junto con la siguiente información:
 
 - Nombre del contenedor
 - Estado del contenedor (ej., "Up", "Exited", etc.)
@@ -27,3 +27,15 @@ Ahora usamos el comando ```docker-compose up p``` r, que aunque es igual que doc
 - Comando ejecutado (lo que está haciendo el contenedor)
 
 ![image](https://github.com/user-attachments/assets/b75262be-32c8-485a-9727-1faaa5cf1319)
+
+Si nos vamos a localhost:8080 vemos que la aplicación esta activo
+
+![image](https://github.com/user-attachments/assets/e61acf06-738b-41ae-ab1b-ba86d63f6d47)
+
+Si queremos parar los contenedores usamos ```docker compose stop```
+
+y si queremos eliminar el escenario usamos ```docker compose down```
+
+![image](https://github.com/user-attachments/assets/97d7d468-6af4-48fb-94df-f00848ff7394)
+
+# Ejemplo 2: Despliegue de la aplicación Temperature
