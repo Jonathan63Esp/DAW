@@ -31,6 +31,7 @@ Para ver los contenedores docker que están en ejecución o si deseamos ver todo
 
 ## Get Started 2
 
+### 2.4 Clonar el repositorio
 Lo que nos pide el ejercicio es primero hacer un clon del siguiente repositorio, lo haremos desde Powershell y habiendo tenido git previamente instalado
 
 ```git clone https://github.com/docker/getting-started-app.git```
@@ -40,6 +41,8 @@ Lo que nos pide el ejercicio es primero hacer un clon del siguiente repositorio,
 Los archivos se me alojaron en C:\Users\Jonathan\getting-started-app
 
 ![archivos alojados](https://github.com/user-attachments/assets/afba2851-03f3-452d-909b-f0dd1a22d038)
+
+### 2.5 Hacer Dockerfile
 
 En esta misma carpeta que es donde esta el package.json creamos un archivo llamado Dockerfile
 
@@ -64,7 +67,7 @@ EXPOSE 3000
 ```
 ![image](https://github.com/user-attachments/assets/a92576b8-acd9-4e8b-a41e-f93be2e3e2a3)
 
-
+### 2.6 Contruir el contenedor
 
 Ponemos en la barra de direcciones powershell y se nos abrira la terminal con la ubicacion del archivo
 
@@ -75,6 +78,8 @@ Ponemos en la barra de direcciones powershell y se nos abrira la terminal con la
 Ahora ponemos ```docker build -t getting-started ``` para construir la imagen
 
 ![docker build](https://github.com/user-attachments/assets/49d02aae-6cd4-489a-b8ba-537d61c1d092)
+
+### 2.7 Ejecutar el contenedor
 
 Al terminar ponemos ```docker run -d -p 127.0.0.1:3000:3000 getting-started``` para arrancarlo
 
@@ -88,7 +93,9 @@ con docker ps podemos ver la lista de contenedores
 
 ![docker ps](https://github.com/user-attachments/assets/368806dc-548a-492c-875c-090b90e87e0b)
 
+### 2.8 Publicar el contenedor en hub.docker.com
 
+La cuenta nos la hicimos antes cuando instalamos el docker, asi que nos vamos a https://hub.docker.com/
 
 
 
