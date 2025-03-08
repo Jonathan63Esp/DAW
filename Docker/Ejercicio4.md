@@ -64,28 +64,24 @@ Para la instalación de WordPress necesitamos dos contenedores: la base de datos
 Siguiendo la documentación de la imagen mariadb y la imagen wordpress podemos ejecutar los siguientes comandos para crear los dos contenedores:
 
 ```
-docker run -d --name servidor_mysql \
-                --network red_wp \
-                -v /opt/mysql_wp:/var/lib/mysql \
-                -e MYSQL_DATABASE=bd_wp \
-                -e MYSQL_USER=user_wp \
-                -e MYSQL_PASSWORD=asdasd \
-                -e MYSQL_ROOT_PASSWORD=asdasd \
-                mariadb
-                
-docker run -d --name servidor_wp \
-                --network red_wp \
-                -v /opt/wordpress:/var/www/html/wp-content \
-                -e WORDPRESS_DB_HOST=servidor_mysql \
-                -e WORDPRESS_DB_USER=user_wp \
-                -e WORDPRESS_DB_PASSWORD=asdasd \
-                -e WORDPRESS_DB_NAME=bd_wp \
-                -p 80:80 \
-                wordpress
-
-docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
-5b2c5a82a524        wordpress           "docker-entrypoint.s…"   9 minutes ago       Up 9 minutes        0.0.0.0:80->80/tcp   servidor_wp
-f70f22aed3d1        mariadb             "docker-entrypoint.s…"   9 minutes ago       Up 9 minutes        3306/tcp             servidor_mysql
+docker run -d --name servidor_mysql --network red_wp -v /opt/mysql_wp:/var/lib/mysql -e MYSQL_DATABASE=bd_wp -e MYSQL_USER=user_wp -e MYSQL_PASSWORD=asdasd -e MYSQL_ROOT_PASSWORD=asdasd mariadb
 
 ```
+
+![image](https://github.com/user-attachments/assets/fb54aa10-a060-489b-8227-4051054c136e)
+
+```              
+docker run -d --name servidor_wp --network red_wp -v /opt/wordpress:/var/www/html/wp-content -e WORDPRESS_DB_HOST=servidor_mysql -e WORDPRESS_DB_USER=user_wp -e WORDPRESS_DB_PASSWORD=asdasd -e WORDPRESS_DB_NAME=bd_wp -p 80:80 wordpress
+
+```
+
+![image](https://github.com/user-attachments/assets/79ba316b-3a1c-4a57-b90c-cf07b7e1590d)
+
+```
+
+docker ps
+
+```
+
+![image](https://github.com/user-attachments/assets/dbab0390-14a0-49a8-88a0-7efe99ce1014)
+
