@@ -91,7 +91,7 @@ Si nos vamos a localhost veremos la aplicacion, que es la misma
 ![image](https://github.com/user-attachments/assets/a57df6ba-6f29-4ccb-8abc-ef6fc014d9dd)
 
 
-Como punto extra, si miramos el archivo Dockerfile veremos que ha cambiado y que se ejecuta ahora con apache2
+Como punto extra, si miramos el archivo Dockerfile veremos que ha cambiado y que se ejecuta ahora con nginx
 
 ![image](https://github.com/user-attachments/assets/3e34f2a4-f3fc-4132-b0bc-8f1541687f81)
 
