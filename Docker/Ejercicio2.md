@@ -41,3 +41,12 @@ Los archivos se me alojaron en C:\Users\Jonathan\getting-started-app
 
 ![archivos alojados](https://github.com/user-attachments/assets/afba2851-03f3-452d-909b-f0dd1a22d038)
 
+Ponemos en la barra de direcciones powershell y se nos abrira la terminal con la ubicacion del archivo
+
+![powershell](https://github.com/user-attachments/assets/9b866198-2147-42ca-bedc-0d18528da899)
+![powershell abierto](https://github.com/user-attachments/assets/25d45d64-35ca-463e-b54e-d5781abaf8bc)
+
+
+
+
+
