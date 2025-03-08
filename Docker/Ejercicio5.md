@@ -39,3 +39,12 @@ y si queremos eliminar el escenario usamos ```docker compose down```
 ![image](https://github.com/user-attachments/assets/97d7d468-6af4-48fb-94df-f00848ff7394)
 
 # Ejemplo 2: Despliegue de la aplicación Temperature
+
+Igual que antes nos bajamos el archivo docker-compose.yaml de este enlace y lo ponemos en la carpeta de antes, sustituyendo al anterior archivo
+
+https://github.com/josedom24/curso_docker_ies/tree/main/ejemplos/modulo4/ejemplo2
+
+![image](https://github.com/user-attachments/assets/5ca507be-9271-42e5-90f5-2d1c498b3961)
+
+Una vez hecho ejecutamos ```docker compose up -d```
+
