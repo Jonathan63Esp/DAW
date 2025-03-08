@@ -63,4 +63,4 @@ y si queremos eliminar el escenario usamos ```docker compose down```
 ![image](https://github.com/user-attachments/assets/e00a8e76-1529-4e1a-b3a6-7ff31d5e2f5e)
 
 
-
+# Ejemplo 3: Despliegue de WordPress + Mariadb
