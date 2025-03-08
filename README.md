@@ -6,6 +6,6 @@ Este repositorio contiene actividades de la asignatura o modulo Despliegue de Ap
 | Ejercicios | Descripción  |
 |------------|------------|
 | [Ejercicio1](/tema0/ejercicio1.md) | Servidor simple con Python desde linea de comandos | 
-| [Ejercicio1](/tema0/ejercicio2.md) | Descripción del ejercicio 2 |
+| [Ejercicio2](/tema0/ejercicio2.md) | Descripción del ejercicio 2 |
 | [Ejercicio3](/ProyectoDAW2ºEval/readme.md) | Proyecto DAW 2º Eval |
-| [Ejercicio3](/Docker/readme.md) | Ejercicios Docker en Windows |
+| [Ejercicio4](/Docker/readme.md) | Ejercicios Docker en Windows |
