@@ -64,7 +64,7 @@ Como punto extra, si miramos el archivo Dockerfile veremos que ha cambiado y que
 
 Paramos con ```docker stop ejemplo2``` y pasamos al siguiente ejemplo
 
-# Ejemplo 3: Desde una imagen con apache2
+# Ejemplo 3: Construcción de imágenes con una una aplicación Python
 
 
 
