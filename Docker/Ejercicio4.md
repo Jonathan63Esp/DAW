@@ -77,6 +77,8 @@ docker run -d --name servidor_wp --network red_wp -v /opt/wordpress:/var/www/htm
 
 ![image](https://github.com/user-attachments/assets/79ba316b-3a1c-4a57-b90c-cf07b7e1590d)
 
+Miramos que esten los dos contenedores
+
 ```
 
 docker ps
@@ -84,4 +86,9 @@ docker ps
 ```
 
 ![image](https://github.com/user-attachments/assets/dbab0390-14a0-49a8-88a0-7efe99ce1014)
+
+Y nos vamos a localhost para verificar de que podemos acceder a wordpress
+
+![image](https://github.com/user-attachments/assets/0c4966b1-bd1f-4445-bfee-aa96acc6832c)
+
 
