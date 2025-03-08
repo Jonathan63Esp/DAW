@@ -43,7 +43,13 @@ Los archivos se me alojaron en C:\Users\Jonathan\getting-started-app
 
 En esta misma carpeta que es donde esta el package.json creamos un archivo llamado Dockerfile
 
+## Es importante que el archivo este sin extensión
+
+Para ello click derecho y crear un nuevo documento de texto, teniendo habilitado en Vista - Extensiones de nombres de archivo podemos hacerlo
+
 ![Dockerfile](https://github.com/user-attachments/assets/88a018e0-c4c0-4891-8e7b-ab51abb4a2da)
+![image](https://github.com/user-attachments/assets/1a8c1e6d-c7bf-4525-a15f-e9b3c098d0ff)
+
 
 Y le pegamos el siguiente contenido
 ```
