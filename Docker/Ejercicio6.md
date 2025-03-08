@@ -17,3 +17,17 @@ Montamos la build
 ```docker build -t jonathan63esp/ejemplo1:v1 .```
 
 ![image](https://github.com/user-attachments/assets/999f7457-a0b0-45ab-9af6-b0cf5d0aa3e6)
+
+Comprobamos la imagen creada con ```docker images```
+
+![image](https://github.com/user-attachments/assets/ee654725-7b7e-43c8-ab27-7433cb9e22db)
+
+Y creamos un contenedor
+
+```docker run -d -p 80:80 --name ejemplo1 jonathan63esp/ejemplo1:v1```
+
+![image](https://github.com/user-attachments/assets/c8094f57-f5f6-4984-a3ba-9d6b2f953af1)
+
+Si vamos a localhost sale la pagina
+
+![image](https://github.com/user-attachments/assets/6156fe36-9439-4634-9b46-ae07ecf86b06)
