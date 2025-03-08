@@ -55,8 +55,6 @@ Y ya estamos listos para trabajar con docker
 
 ![listos para trabajar con docker](https://github.com/user-attachments/assets/194412e1-e961-4255-888b-0d1b92eadd37)
 
-## 2. j
-
 
 
 
